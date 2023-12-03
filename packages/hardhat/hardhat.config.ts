@@ -130,6 +130,10 @@ const config: HardhatUserConfig = {
       url: "https://sepolia.publicgoods.network",
       accounts: [deployerPrivateKey],
     },
+    celoAlfajores: {
+      url: "https://alfajores-forno.celo-testnet.org",
+      accounts: [deployerPrivateKey],
+    },
   },
   verify: {
     etherscan: {
